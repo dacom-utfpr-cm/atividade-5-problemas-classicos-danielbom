@@ -21,4 +21,8 @@ public class Fork {
 	public int getPosition() {
 		return i;
 	}
+	
+	public String toString() {
+		return String.valueOf(i);
+	}
 }
